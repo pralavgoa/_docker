@@ -7,3 +7,5 @@ sudo service docker start
 sudo docker images
 sudo docker ps
 
+sudo docker run -it -p 8080:8080 jboss/wildfly
+
